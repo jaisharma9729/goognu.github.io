@@ -1,4 +1,4 @@
- body{
+body{
     margin:0px;
     padding: 0px;
 }
@@ -84,7 +84,9 @@ font-style: normal;
 display: flex;
 align-items: center; 
 justify-content:center ; 
-gap: 55px;
+margin-left: 150px;
+margin-right: 150px;
+gap: 10px;
 border: 2px solid rgb(215, 215, 230);
 
     
@@ -98,18 +100,19 @@ margin-top: -3px;
 }
 .text-container{
 display: flex;
+margin-left: -140px;
 
 }
 .text-container .left{
-margin-left: 290px;
+
 width: 600px;
 border: 2px solid rgb(203, 203, 240);
-padding: 20px;
+padding: 10px;
 }
 .text-container .right{
-
-padding: 80px;
-width: 400px;
+margin-right: 150px;
+padding: 50px;
+width: 100px;
 border: 2px solid rgb(233, 233, 243);
 
 
