@@ -1,0 +1,239 @@
+ body{
+    margin:0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+text-align: right;
+margin-bottom: 30px;
+}
+li{
+display: inline;
+padding: 13px;
+font-size: 18px;
+}
+a{
+text-decoration: none;
+color: black;
+}
+input{
+width: 180px;
+height: 25px;
+padding-left: 9px;
+box-shadow: 10px;
+}
+
+.image1{
+margin-top: 10px;
+margin-right: 20px;
+}
+.logo{
+display: flex;
+align-items: center;
+}
+.compo{
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 43%, rgba(40,40,37,1) 55%, rgba(150,150,142,1) 85%, rgba(211,211,200,1) 100%, rgba(150,150,142,1) 100%);
+padding-left: 90px;
+}
+.content{
+display: flex;
+height: 668px;
+justify-content: space-evenly;
+}
+.para{
+color: white;
+width: 451px;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+}
+.butto{
+display: flex;
+width: 450px;
+justify-content: space-between;
+}
+#B1{
+color: white;
+background: #EE7F31;
+font-size: 20px;
+width: 220px;
+height: 48px;
+border-radius: 4px;
+}
+
+h2 {
+width: 100%; 
+text-align: center; 
+border-bottom: 1px solid #000; 
+line-height: 0.1em;
+margin: 10px 0 20px; 
+} 
+
+h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+.container{
+font-style: normal;
+}
+.container .item-bar{
+display: flex;
+align-items: center; 
+justify-content:center ; 
+gap: 55px;
+border: 2px solid rgb(215, 215, 230);
+
+    
+
+}
+.item-bar .overview{
+font-weight: 400;
+font-size: 28px;
+color: #3d4152;
+margin-top: -3px;
+}
+.text-container{
+display: flex;
+
+}
+.text-container .left{
+margin-left: 290px;
+width: 600px;
+border: 2px solid rgb(203, 203, 240);
+padding: 20px;
+}
+.text-container .right{
+
+padding: 80px;
+width: 400px;
+border: 2px solid rgb(233, 233, 243);
+
+
+}
+.right .img{
+
+border: 2px solid blue;
+}
+.right .login {
+border: 2px solid blue;
+padding: 10px;
+}
+input#name{
+width: 300px;
+border: 1px solid #ddd;
+border-radius: 3px;
+outline: 0;
+padding: 7px;
+background-color: #fff;
+box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+u{
+color: blue;
+}
+h9{
+font-size: 30px;
+
+}
+button{
+background-color: orange;
+font-size: 25px;
+height: 35px;
+border-radius: 10px;
+color: white;
+
+}
+input#name-right{
+width: 310px;
+height: 60px;
+border: 1px solid #ddd;
+border-radius:3px ;
+outline: 0;
+padding: 1px;
+background-color:#fff ;
+box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+}
+.container{
+    font-style: normal;
+}
+.container .item-bar{
+    display: flex;
+    align-items: center; 
+    justify-content:center ; 
+    gap: 55px;
+    border: 2px solid rgb(215, 215, 230);
+    
+        
+    
+}
+.item-bar .overview{
+    font-weight: 400;
+    font-size: 28px;
+    color: #3d4152;
+    margin-top: -3px;
+}
+.text-container{
+    display: flex;
+    
+}
+.text-container .left{
+    margin-left: 290px;
+    width: 600px;
+    border: 2px solid rgb(203, 203, 240);
+    padding: 20px;
+}
+.text-container .right{
+    
+    padding: 80px;
+    width: 400px;
+    border: 2px solid rgb(233, 233, 243);
+    
+    
+}
+.right .img{
+
+    border: 2px solid blue;
+}
+.right .login {
+    border: 2px solid blue;
+    padding: 10px;
+}
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+u{
+    color: blue;
+}
+h9{
+    font-size: 30px;
+   
+}
+button{
+    background-color: orange;
+    font-size: 25px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    
+}
+input#name-right{
+    width: 310px;
+    height: 60px;
+    border: 1px solid #ddd;
+    border-radius:3px ;
+    outline: 0;
+    padding: 1px;
+    background-color:#fff ;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+}
