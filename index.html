@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./index.css">
 </head>
       <style>
-            body{
+    body{
     margin:0px;
     padding: 0px;
 }
@@ -33,10 +33,15 @@ a{
 text-decoration: none;
 color: black;
 }
+.material-symbols-outlined{
+    font-size: 19px;
+    margin-left: 5px;
+}
 input{
 width: 180px;
 height: 25px;
 padding-left: 9px;
+margin-top: 10px;
 box-shadow: 10px;
 }
 
@@ -93,13 +98,14 @@ h2 span {
 }
 .container{
 font-style: normal;
+
 }
 .container .item-bar{
 display: flex;
 align-items: center; 
+width: 1050px;
 justify-content:center ; 
-margin-left: 150px;
-margin-right: 150px;
+margin-left: 180px;
 gap: 10px;
 border: 2px solid rgb(215, 215, 230);
 
@@ -118,14 +124,12 @@ margin-left: -140px;
 
 }
 .text-container .left{
-width: 600px;
 border: 2px solid rgb(203, 203, 240);
 padding: 10px;
 }
 .text-container .right{
-margin-right: 150px;
-padding: 50px;
-width: 100px;
+padding: 30px;
+width: 50px;
 border: 2px solid rgb(233, 233, 243);
 
 
@@ -162,17 +166,7 @@ border-radius: 10px;
 color: white;
 
 }
-input#name-right{
-width: 310px;
-height: 60px;
-border: 1px solid #ddd;
-border-radius:3px ;
-outline: 0;
-padding: 1px;
-background-color:#fff ;
-box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
 
-}
 .container{
     font-style: normal;
 }
@@ -218,15 +212,7 @@ box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
     border: 2px solid blue;
     padding: 10px;
 }
-input#name{
-    width: 300px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    outline: 0;
-    padding: 7px;
-    background-color: #fff;
-    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
-}
+
 u{
     color: blue;
 }
@@ -242,18 +228,7 @@ button{
     color: white;
     
 }
-input#name-right{
-    width: 310px;
-    height: 60px;
-    border: 1px solid #ddd;
-    border-radius:3px ;
-    outline: 0;
-    padding: 1px;
-    background-color:#fff ;
-    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
-
-}
-  .grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 10px;
@@ -268,20 +243,22 @@ input#name-right{
   }
   .container-square{
     border: 2px solid rgb(221, 193, 252);
-    width: 1190px;
-    margin-left: 150px;
+    width: 1040px;
+    margin-left: 200px;
     padding: 5px;
 }
+
+
 
       </style>
 
 <body>
-    <div class="nav">
+   <div class="nav">
         <div class="logo">
-            <img class ="image1" src="image 36.png" width="100px" height="35px">
+            <img class ="image1" src="image 36.png" width="120px" height="50px" style="margin-left: 70px;">
             <input type="text" placeholder="What do you want to learn" >
         </div>
-    <div class="nav-bar">
+    <div class="nav-bar" style="margin-top: 10px;">
         <ul>
             <li><a href="#">Courses </a></li>
             <li><a href="#">Learning Paths</a></li>
@@ -293,7 +270,26 @@ input#name-right{
     </div>
 <div class="compo">
     <div class="content">
+        
+    
+       
         <div class="content-part">
+            <div class="navbar-2" style="width: 500px; margin-left: -130px;">
+                <ul>
+                    <li><a href="#home" style="color: white; ">Home <span class="material-symbols-outlined "  >
+                        keyboard_arrow_right
+                        </span></a></li>
+                    <li><a href="#news" style="color: white;">News<span class="material-symbols-outlined">
+                        keyboard_arrow_right
+                        </span></a></li>
+                    <li><a href="#contact" style="color: white;">Contact<span class="material-symbols-outlined">
+                        keyboard_arrow_right
+                        </span></a></li>
+                    <li><a href="#about" style="color: white;">About</a></li>
+                  </ul>
+            </div>
+            
+           
         <h1 style="color: white; font-size: 48px;font-weight: 700;line-height: 58.09px;"><span style="color: #CD1839;">DevOps Traning</span> In Noida </h1>
         <h3 style="color:white; font-size: 31px;font-weight: 600px;line-height:37.52px ; ">Build your skills<br> 
             we can take care of the rest</h3>
@@ -312,17 +308,17 @@ input#name-right{
             
         </div>
     </div>
-    <img src="Group 236.png" style="position:absolute; top:614px;left: 140px; ">
-    <div class="boxing" style="position:absolute; top:650px;left: 120px;">
+    <img src="Group 236.png" style="position:absolute; top:625px;left: 200px; ">
+    <div class="boxing" style="position:absolute; top:650px;left: 170px;">
         <img src="Mask group.png" style="margin-right: 70px;margin-left: 30px;">
         <img src="Group 231.png"style="margin-right: 80px;">
         <img src="Group 232.png"style="margin-right: 80px;">
         <img src="Group 233.png" > 
     </div>
 </div>
-<div class="container">
+<div class="container " style="margin-left: 20px;">
     <div class="item-bar">
-        <div class="overview">Overview</div>
+        <div class="overview" style="font-size:40px;   ">Overview</div>
         <div class="upcoming">Upcoming Batches</div>
         <div class="options">Training Options</div>
         <div class="course">Course Cirriculum</div>
@@ -333,7 +329,7 @@ input#name-right{
     </div>
 </div>
 <div class="text-container">
-    <div class="left">
+    <div class="left" style="width: 445px; margin-left: 340px;">
         <h1>DevOps Training <strong>Overview</strong></h1>
         <p>These ideas and skills will assist you in starting to think like a computer programmer and learning how to 
             write DevOps programs. DevOps is a famous higher, open-source programming language with many 
@@ -434,23 +430,23 @@ input#name-right{
             
             &nbsp;&nbsp;&nbsp;
             <input type="radio" name="Enquiry"
-            id="myself">
+            id="myself" style="margin-left: -90px; height: 15px;"  >
             &nbsp;
-            <span id="myself">Myself</span>
+            <span id="myself" style="margin-left: -90px;">Myself</span>
             &nbsp;&nbsp;&nbsp;&nbsp;
             <input type="radio" name="Enquiry"
-            id="Company">
+            id="Company" style="margin-left: -80px; height: 15px;">
             &nbsp;
-            <span id="company">Company</span>
+            <span id="company" style="margin-left: -90px; ">Company</span>
             <br><br>
             <input type="text" name="fname"
-            id="name-right" placeholder="Write an optional message">
+            id="name-right" style="height: 50px; width: 300px;" placeholder="Write an optional message">
             <br><br>
             &nbsp;&nbsp;&nbsp;&nbsp;
             <input type="checkbox" name="update"
-            id="checkbox">
+            id="checkbox" style="margin-left: -95px; height: 20px; margin-right: -5px;">
             &nbsp;
-            <span id="update"> I Want To Recieve Update Directly On Whatsapp</span>
+            <span id="update" style="margin-left: -70px; font-size: 16px;" > I Want To Recieve Update Directly On Whatsapp</span>
 
             <p>By tapping submit, you agree to ap2v <u>Terms & Conditions</u> and <u>Privacy PolicyGet</u> a Call Back
             </p>
