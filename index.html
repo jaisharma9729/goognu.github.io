@@ -253,6 +253,25 @@ input#name-right{
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
 
 }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+.grid-container > div {
+    border: 2px solid blueviolet;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .container-square{
+    border: 2px solid rgb(221, 193, 252);
+    width: 1190px;
+    margin-left: 150px;
+    padding: 5px;
+}
 
       </style>
 
@@ -439,8 +458,18 @@ input#name-right{
         </div>
     </div>
 </div>
-<div class="footer">
-    <img src="Frame 35.png" style="position: absolute; margin-left: 140px; padding: 10px; width: 1050px;">
+<div class="container-square">
+    <h1> Skills</h1>
+    <div class="grid-container">
+        <div class="item1">Automation</div>
+        <div class="item2">Linux</div>
+        <div class="item3">Windows</div>  
+        <div class="item4">Apple</div>
+        <div class="item5">Microsoft</div>
+        <div class="item6">Samsung</div>
+        <div class="item7">Intex</div>
+        <div class="item8">Star</div>
+      </div>
 </div>
 
 
